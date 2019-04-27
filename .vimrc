@@ -103,6 +103,9 @@
     set mouse=a                 " Automatically enable mouse usage
     set mousehide               " Hide the mouse cursor while typing
     scriptencoding utf-8
+    " hightlight tags and  trailing spaces
+    set lcs=space:·,trail:·,eol:⊙,extends:⌒,tab:»·
+    set list
 
     if has('clipboard')
         if has('unnamedplus')  " When possible use + register for copy-paste
